@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/*
+
+NAV
+
+*/ 
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #1c1c1c;
+    position: fixed;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: white;
+    padding: 24px 24px;
+    margin: 0 1px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #1c1c1c;
+}
+
+.banner-area {
+    background-image: url(/assets/interstellarbanner.jpg); 
+    background-size: cover;
+    background-position: center center;
+    top: 75px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.banner-area {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.banner-area h2 {
+    padding-top: 15%;
+    font-size: 80px;
+    color: #1c1c1c;
+}
+
+input {
+    transform: scale(2);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 4px 24px;
+    margin: 8px;
+}
+
+.content-area {
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    background-color: white;
+    top: 650px;
+}
+
+.content-area h2 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+}
